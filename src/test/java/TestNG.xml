@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="username" value="nigeria_tenant_admin"></parameter>
+    <parameter name="password" value="TnvLOl54WxR75vylop2A"></parameter>
+    <parameter name="path" value="C:\Users\k-eni\Desktop\Selenium\chromedriver\chromedriver.exe"></parameter>
+    <parameter name="gradeName" value="13th Grade"></parameter>
+    <parameter name="gradeShortName" value="14th"></parameter>
+    <parameter name="gradeOrder" value="15"></parameter>
+
+    <test verbose="2" preserve-order="true" name="Project">
+        <classes>
+            <class name="ProjectTest"></class>
+        </classes>
+    </test>
+</suite>
